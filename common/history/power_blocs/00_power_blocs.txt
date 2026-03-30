@@ -1,0 +1,108 @@
+﻿POWER_BLOCS = {
+	  
+	c:GBR ?= {
+		create_power_bloc = {
+			name = BRITISH_EMPIRE
+			map_color = hsv{ 0.99  0.7  0.9 }
+
+			founding_date = 1784.5.12 # Treaty of Paris (1783) comes into effect
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_2
+			}
+		}
+	}   
+	 
+	c:FRA ?= {
+		create_power_bloc = {
+			name = french_colonial_empire
+			map_color = { 1 4 129 }
+			founding_date = 1830.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_3
+			}
+		}
+	} 
+
+	c:JAP ?= {
+		create_power_bloc = {
+			name = dai_nippon_teikoku
+			map_color = { 254 75 218 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:NET ?= {
+		create_power_bloc = {
+			name = net_empire
+			map_color = { 219 84 2 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	} 
+
+c:ITA ?= {
+		create_power_bloc = {
+			name = ita_empire
+			map_color = { 153 222 10 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:USA ?= {
+		create_power_bloc = {
+			name = usa_empire
+			map_color = { 52 2 253 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:BEL ?= {
+		create_power_bloc = {
+			name = bel_empire
+			map_color = { 253 209 128 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:RUS ?= {
+		create_power_bloc = {
+			name = URSS_socialist_international
+			map_color = { 226 3 37 }
+			founding_date = 1917.12.1
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_3
+			member = c:CCI
+		}
+	}
+}

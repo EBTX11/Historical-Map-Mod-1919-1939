@@ -1,0 +1,393 @@
+﻿SOM = {
+	color = { 255  182  193 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+SOL = {
+	color = { 48  25  52 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+}
+TAJ = {
+	color = { 127 23 52 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+
+	cultures = { tajik }
+	capital = STATE_TAJIKISTAN
+}
+
+STN = {
+	color = { 180  158  127 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { hausa fulbe }
+	capital = STATE_HAUSALAND
+}
+SST = {
+	color = { 41  89  174 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { british bornean }
+	capital = STATE_MALAYA
+}
+FMS = {
+	color = { 165  151  80 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+} 
+UMS = {
+	color = { 165  0  80 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	capital = STATE_MALAYA
+	cultures = { malay }
+}
+
+PNG = {
+	color = { 81 97 170 }
+
+	country_type = colonial #unrecognized
+
+	tier = principality
+
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+BOW = {
+	color = { 117 170 219 }
+
+	country_type = colonial #unrecognized
+
+	tier = principality
+
+	cultures = { tswana }
+	capital = STATE_BOTSWANA
+}
+SEY = {
+	color = { 52  33  1 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { maghrebi }
+	capital = STATE_LIBYAN_DESERT
+}
+MM01 = {
+	color = { 250 249 245 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { maghrebi }
+	capital = STATE_NEJD
+} 
+ 
+ITC = {
+	color = { 75 179 27}
+	country_type = colonial #unrecognized
+	tier = kingdom
+	cultures = { north_italian south_italian }
+	capital = STATE_LIBYA
+} 
+ 
+COG = {
+	color = { 225  198  153 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { french	 }
+	capital = STATE_CONGO
+} 
+SOH = {
+	color = { 100 97 25 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { somali }
+	capital = STATE_SOMALILAND
+} 
+
+CCN = {
+	color = "azure"
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { manchu han } 
+}
+CCI = {
+	color = { 25 0 0 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { manchu han } 
+	capital = STATE_SHANXI
+}
+MUA = {
+	color = { 255  254  124 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { manchu }
+	capital = STATE_HINGGAN
+} 
+
+SRW = {
+	color = { 218 165 32 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+ADR = {
+	color = { 184 56 10 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { catalan }
+	capital = STATE_ANDORRA
+}
+SMN = {
+	color = { 81 224 224 }
+	
+	country_type = unrecognized
+
+	tier = city_state
+	
+	cultures = { north_italian }
+	capital = STATE_ROMAGNA
+}
+MOO = {
+	color = { 128 0 0 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { french }
+	capital = STATE_PROVENCE
+} 
+LIE = {
+	color = { 25 28 183 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { north_german south_german }
+	capital = STATE_LOMBARDY
+} 
+NRB = {
+	color = { 41  89  174 }
+	
+	country_type = colonial #unrecognized
+	
+	tier = principality
+	
+	cultures = { bornean }
+	capital = STATE_NORTH_BORNEO
+}
+
+PPN = {
+	color = { 81 97 170 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { melanesian }
+	capital = STATE_EASTERN_NEW_GUINEA
+}
+BLZ = {
+	color = { 48 25 52 }
+	
+	country_type = colonial #recognized
+	
+	tier = principality
+
+	cultures = { british central_american }
+	capital = STATE_GUATEMALA
+} 
+KUW = {
+	color = { 135 206 235 }
+	
+	country_type = colonial #recognized
+	
+	tier = principality
+
+	cultures = { mashriqi }
+	capital = STATE_TAJIKISTAN
+} 
+NAI = {
+	color = { 253  217  181 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { british boer }
+	capital = STATE_NAMAQUALAND
+}
+ERI = {
+	color = { 37  68  133 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_ERITREA
+} 
+TOG = {
+	color = { 87  8  97 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_TOGO
+}
+KEN = {
+	color = { 124  13  14 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_KENYA
+}
+MOZ = {
+	color = { 134  194  156 }
+	
+	country_type = colonial #unrecognized
+
+	tier = colonial
+	
+	cultures = { portuguese }
+	capital = STATE_MOCAMBIQUE
+}
+ANG = {
+	color = { 255  165  8 }
+	
+	country_type = colonial #unrecognized
+
+	tier = colonial
+	
+	cultures = { portuguese }
+	capital = STATE_NORTH_ANGOLA
+} 
+TCO = {
+	color = { 1  50  32 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality #colonial
+	
+	cultures = { flemish wallonian }	
+	capital = STATE_BAS_CONGO
+}
+UGA = {
+	color = { 209  240  192 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_UGANDA
+}
+CMU = {
+	color = { 101  67  33 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_SOUTH_CAMEROON
+} 
+TAN = {
+	color = { 2  204  255 }
+	
+	country_type = colonial
+
+	tier = principality
+	
+	cultures = { north_german south_german }
+	capital = STATE_ZANZIBAR
+} 
+MWI = {
+	color = { 48  25  52 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_KAZEMBE
+}
+ZAM = {
+	color = { 177  234  232 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { british }
+	capital = STATE_ZAMBIA
+}
+GAB = {
+	color = { 172  125  12 }
+	
+	country_type = colonial #unrecognized
+
+	tier = principality
+	
+	cultures = { fang }
+	capital = STATE_GABON
+}
