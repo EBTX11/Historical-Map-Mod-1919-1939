@@ -1,0 +1,125 @@
+﻿hohenzollern_character_template = {
+    first_name = friedrich_wilhelm 
+    last_name = von_hohenzollern
+    historical = yes
+    culture = primary_culture #cu:north_german
+    female = no
+    birth_date = 1859.01.27
+}
+  
+belgique_character_template = {
+    first_name = léopold
+    last_name = de_belgique
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1835.04.06
+}
+
+carnot_character_template = {
+    first_name = sadi
+    last_name = carnot
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1837.08.11
+}
+
+romanov_character_template = {
+    first_name = aleksandr
+    last_name = romanov
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1845.03.10
+}
+
+harrison_character_template = {
+    first_name = benjamin
+    last_name = harrison
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1833.08.20
+}
+
+savoia_character_template = {
+    first_name = umberto
+    last_name = savoia
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1844.03.14
+}
+
+nassau_character_template = {
+    first_name = wilhelmina
+    last_name = oranje_nassau
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1870.08.31
+}
+
+hitler_character_template = {
+    first_name = adolf
+    last_name = hitler
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1889.04.20
+}
+
+roosevelt_character_template = {
+    first_name = franklin
+    last_name = roosevelt
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1882.01.30
+}
+
+stalin_character_template = {
+    first_name = joseph
+    last_name = stalin
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1878.12.18
+}
+
+gotha_character_template = {
+    first_name = leopold
+    last_name = van_saxe_coburg_gotha
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1895.11.03
+}
+
+ataturk_character_template = {
+    first_name = mustafa_kemal
+    last_name = ataturk
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1881.05.19
+}
+
+windsor_character_template = {
+    first_name = george
+    last_name = windsor
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1865.06.03
+}
+
+lebrun_character_template = {
+    first_name = albert
+    last_name = lebrun
+    historical = yes
+    culture = primary_culture #cu:
+    female = no
+    birth_date = 1871.08.29
+}

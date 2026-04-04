@@ -1,0 +1,86 @@
+﻿CHARACTERS = {  
+	c:FRA ?= {  #Sadi Carnot
+        create_character = {
+            template =  lebrun_character_template
+			ruler = yes
+		} 
+	}
+	c:GBR ?= {  
+        create_character = {
+            template =  windsor_character_template
+			ruler = yes
+		}
+	}
+	c:RUS ?= {
+        create_character = {
+            template =  stalin_character_template
+			ruler = yes
+		}
+	} 
+	c:BEL ?= {
+        create_character = {
+            template =  gotha_character_template
+			ruler = yes
+		}
+	}   
+	c:GER ?= {
+        create_character = { #Friedrich Wilhelm
+            template =  hitler_character_template
+			ruler = yes
+		}
+	}  
+	c:USA ?= {
+        create_character = {
+            template =  roosevelt_character_template
+			ruler = yes
+		}
+	}   
+	c:JAP ?= {
+        create_character = {
+            template = JAP_showa_yamato
+			ruler = yes
+		}
+	} 
+	c:TUR ?= {
+        create_character = {
+            template = ataturk_character_template
+			ruler = yes
+		}
+	} 
+	c:ITA ?= {
+        create_character = {
+            template = savoia_character_template
+			ruler = yes
+		}
+	} 
+	# c:SPA ?= {
+    #     create_character = {
+    #         template = FRA_alfonso_de_bourbon
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:POR ?= {
+    #     create_character = {
+    #         template = POR_carlos_i_de_braganca_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	# c:NET ?= {
+    #     create_character = {
+    #         template = nassau_character_template
+	# 		ruler = yes
+	# 	}
+	# } 
+	c:BRZ ?= {
+        create_character = {
+            template = BRZ_deodoro_da_fonseca
+			ruler = yes
+		}
+	} 
+
+
+ 
+
+
+}
+

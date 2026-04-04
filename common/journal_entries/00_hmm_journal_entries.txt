@@ -1,0 +1,244 @@
+﻿
+# REPLACE:je_schleswig_holstein_question = { 
+# 	complete = { 
+# 		game_date > 1800.0.0
+# 	}
+# }  
+
+REPLACE:je_confederation_of_the_rhine = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_countdown = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_war = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_reconstruction = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_reincorporate = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_equality = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_acw_wild_wild_west = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_manifest_destiny_mexico = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_uneasy_raj = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_heavenly_kingdom_main = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_schleswig_holstein_question = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_german_unification_idea = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_north_german_unification = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_south_german_unification = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_german_unification = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_springtime_of_the_peoples = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_red_summer = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_metternich = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_trans_siberian_railway = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_conference_of_london = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+ 
+###########RUS
+REPLACE:je_the_eastern_border = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_caucasian_war = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_circassian_expulsions = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_caucasian_war_circassia = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_caucasian_war_imamate = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_pacify_the_steppes = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_the_last_kazakh_khan = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_conquest_of_central_asia = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_great_reformer = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_great_reforms_serfdom = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_great_reforms_military = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_great_reforms_bureaucratic = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}   
+###########
+
+ 
+###########TUR et balkan JE 
+REPLACE:je_sick_man_main = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_syria = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_egypt = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_economy = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_education = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_separatism = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_army = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+} 
+REPLACE:je_sick_man_bureaucracy = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_the_balkan_league = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_spoils_of_war = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_eastern_question_russia = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_eastern_question_austria = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}  
+REPLACE:je_great_eastern_crisis = { 
+	complete = { 
+		game_date > 1800.0.0
+	}
+}    
+###########
+
+
+
+
+
