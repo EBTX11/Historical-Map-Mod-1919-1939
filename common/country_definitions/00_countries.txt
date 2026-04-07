@@ -2157,7 +2157,8 @@ ATL = {
 }
 
 MEX = {
-	color = { 23 43 25 } 
+	color = { 56 143 53 }
+	#color = { 23 43 25 } 
 
 	country_type = recognized
  
