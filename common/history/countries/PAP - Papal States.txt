@@ -1,9 +1,7 @@
 ﻿COUNTRIES = {
 	c:PAP = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_3_tech = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		effect_starting_politics_conservative = yes
-		
         set_ruling_interest_groups = {
         	ig_devout
         }
@@ -17,15 +15,12 @@
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
 		activate_law = law_type:law_oligarchy
-		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms
-
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 1
 		}
-		
 		ig:ig_landowners = {
 			set_interest_group_name = ig_roman_landowners
 			remove_ideology = ideology_paternalistic
@@ -34,7 +29,6 @@
 		ig:ig_intelligentsia = {
 			remove_ideology = ideology_anti_clerical
 		}
-
 		ig:ig_devout = {
 			set_ig_bolstering = yes
 			set_interest_group_name = ig_roman_curia

@@ -1,20 +1,15 @@
 ﻿COUNTRIES = {
-	c:SOK = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_5_tech = yes
-		
-		effect_starting_politics_traditional = yes
-		activate_law = law_type:law_traditionalism
-		activate_law = law_type:law_isolationism
+	c:SOK ?= {
+        effect_starting_technology_tier_4_tech_hmm = yes
+		activate_law = law_type:law_colonial_administration
 		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_slave_trade	
-
-		ig:ig_devout = {
-			set_interest_group_name = ig_sunni_madrasahs
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_traditionalism
+		ig:ig_devout ?= {
 			add_ruling_interest_group = yes
 		}
-
-		ig:ig_landowners = {
+		ig:ig_landowners ?= {
 			add_ruling_interest_group = yes
 		}
 	}

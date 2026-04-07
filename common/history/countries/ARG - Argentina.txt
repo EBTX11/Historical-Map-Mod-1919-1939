@@ -1,9 +1,7 @@
 ﻿COUNTRIES = {
 	c:ARG = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_3_tech = yes
+        effect_starting_technology_tier_3_tech_hmm = yes
 		effect_starting_politics_conservative = yes
-		
 		activate_law = law_type:law_autocracy 
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
@@ -17,17 +15,13 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_no_schools
 		activate_law = law_type:law_national_militia
-		
 		add_taxed_goods = g:tobacco
-		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms	
-
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 2
 		}		
-
 		ig:ig_armed_forces = {
 			add_ideology = ideology_caudillismo
 			add_ruling_interest_group = yes
@@ -43,7 +37,6 @@
 			remove_ideology = ideology_isolationist
 			add_ideology = ideology_isolationist_expansionism
 		}
-
 		add_modifier = {
 			name = age_of_caudillos_modifier
 			months = very_long_modifier_time

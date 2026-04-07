@@ -1,14 +1,9 @@
 ﻿COUNTRIES = {
 	c:GDL = {
-    effect_starting_technology_1922_tech_minor = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_next_election_date = 2022.4.24 #YYYY.MM.DD
-		
-		effect_starting_technology_tier_1_tech = yes
-
 		set_tax_level = high
-		
 		add_taxed_goods = g:liquor
-		
 		# Laws
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_elected_bureaucrats
@@ -32,22 +27,17 @@
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_old_age_pension
 		activate_law = law_type:law_encompassing_protections
-
-			
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 4
 		}
-
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 3
 		}
-		
 		ig:ig_devout = { 
 			set_interest_group_name = ig_catholic_church 
 		}
-
 		ig:ig_trade_unions = {
 			set_ig_suppression = yes
 		}

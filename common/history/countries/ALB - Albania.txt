@@ -1,8 +1,6 @@
 COUNTRIES = {
 	c:ALB = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_4_tech = yes
-		
+        effect_starting_technology_tier_4_tech_hmm = yes
         set_ruling_interest_groups = {
         	ig_landowners
         }
@@ -13,6 +11,5 @@ COUNTRIES = {
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation		
 		activate_law = law_type:law_census_voting
-
 	}
 }

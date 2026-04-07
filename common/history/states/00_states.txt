@@ -2923,7 +2923,7 @@ STATES = {
 	}
 	s:STATE_ALSACE_LORRAINE = {
 		create_state = {
-			country = c:GER
+			country = c:FRA
 			owned_provinces = {
 				x4899A2 x6E4891 xCC3250 xF0C0A0
 			}

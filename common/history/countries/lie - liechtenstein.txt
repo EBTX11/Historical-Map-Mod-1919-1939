@@ -1,13 +1,7 @@
 ﻿COUNTRIES = {
 	c:LIE = {
-    effect_starting_technology_1922_tech_minor = yes
-		
-		effect_starting_technology_tier_1_tech = yes
-
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_tax_level = medium
-		
-		
-		
 		# Laws
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_elected_bureaucrats
@@ -30,18 +24,14 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_universal_protections
-
-			
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
 		}
-
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
 		}
-
 		ig:ig_trade_unions = {
 			set_ig_suppression = yes
 		}

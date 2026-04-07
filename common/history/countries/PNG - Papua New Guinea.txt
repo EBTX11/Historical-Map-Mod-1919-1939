@@ -1,0 +1,6 @@
+COUNTRIES = {
+	c:PNG	= {
+        effect_starting_technology_tier_4_tech_hmm = yes
+		activate_law = law_type:law_colonial_administration
+	}
+}

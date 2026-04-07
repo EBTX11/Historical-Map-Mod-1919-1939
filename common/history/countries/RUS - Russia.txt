@@ -1,36 +1,43 @@
 ﻿COUNTRIES = {
 	c:RUS = {
-    effect_starting_technology_1922_tech_major = yes
-		effect_starting_technology_tier_3_tech = yes
-		add_technology_researched = napoleonic_warfare
-		
-		# Laws 
-		activate_law = law_type:law_council_republic
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_command_economy
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_total_separation
-		activate_law = law_type:law_multicultural
-		activate_law = law_type:law_peasant_levies
+        effect_starting_technology_tier_2_tech_hmm = yes
 		activate_law = law_type:law_censorship
-		activate_law = law_type:law_colonial_resettlement 
-		
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_command_economy
+		activate_law = law_type:law_corporatized_unions
+		activate_law = law_type:law_council_republic
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_militarized_police
+		activate_law = law_type:law_multicultural
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_restricted_child_labor
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_wage_subsidies
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_worker_protections
+		add_technology_researched = napoleonic_warfare
+		# Laws 
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 1
 		}
-				
 		ig:ig_intelligentsia = { 
 			set_ig_suppression = yes
 		}
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_orthodox_church
 			remove_ideology = ideology_patriarchal
 			add_ideology = ideology_russian_patriarch
 		}
-
 		ig:ig_landowners = {
 			set_interest_group_name = ig_gentry_assembly
 		}

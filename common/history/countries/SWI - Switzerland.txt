@@ -1,11 +1,8 @@
 ﻿COUNTRIES = {
 	c:SWI = {
-    effect_starting_technology_1922_tech_minor = yes
+        effect_starting_technology_tier_3_tech_hmm = yes
 		# set_next_election_date = ???
-		
-		effect_starting_technology_tier_2_tech = yes
 		add_technology_researched = dialectics
-		
 		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_census_voting
@@ -17,19 +14,15 @@
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_tenant_farmers
-		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms		
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
 		}	
-		
 		ig:ig_rural_folk = {
 			add_ruling_interest_group = yes
 		}
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_evangelical_church
 		}

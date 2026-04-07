@@ -1,0 +1,43 @@
+﻿GLOBAL = {
+	set_global_variable = schleswig_holstein_question_solved
+	set_global_variable = peoples_springtime_happened   
+	set_global_variable = meiji_restoration_complete   
+
+	set_global_variable = paris_commune_happened  
+	c:PRC ?= {
+		save_scope_as = paris_commune_scope
+		ig:ig_armed_forces ?= {
+			save_scope_as = national_guard_scope
+		}
+		create_bidirectional_truce = {
+			country = c:FRA
+			months = 24
+		}
+	} 
+	random_state = {
+		limit = {
+			owner = {
+				c:PRC ?= THIS
+			}
+		}
+		save_scope_as = paris_scope
+	} 
+	every_country = {
+		limit = {
+			has_diplomatic_relevance = ROOT
+			country_rank >= rank_value:major_power
+			NOT = { ROOT = THIS }
+		}
+		trigger_event = { id = paris_commune.5 days = 14 }
+	}  
+	set_global_variable = { name = paris_commune_progress_var value = 40 }
+	set_global_variable = { name = paris_commune_progress_drift value = -1 }
+
+
+	every_state = {
+		limit = {
+			has_potential_resource = building_oil_rig
+		}
+		force_resource_discovery = building_oil_rig
+	} 
+}

@@ -1,10 +1,7 @@
 COUNTRIES = {
 	c:SUR = {
-    effect_starting_technology_1922_tech_minor = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_next_election_date = 1839.1.6 # 4 years after the uprising's start
-		
-		effect_starting_technology_tier_3_tech = yes
-
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_slave_trade
@@ -12,7 +9,6 @@ COUNTRIES = {
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_per_capita_based_taxation
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
 		}

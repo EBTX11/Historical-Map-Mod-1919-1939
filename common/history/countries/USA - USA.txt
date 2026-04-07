@@ -1,16 +1,10 @@
 ﻿COUNTRIES = {
 	c:USA = {
-    effect_starting_technology_1922_tech_major = yes
+        effect_starting_technology_tier_1_tech_hmm = yes
 		set_next_election_date = 1836.12.7
-
 		set_tax_level = low
-		
-		effect_starting_technology_tier_1_tech = yes
-		
 		set_market_capital = STATE_NEW_YORK
-		
 		set_variable = monroe_doctrine
-		
 		effect_starting_politics_liberal = yes
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_slavery_banned
@@ -23,35 +17,29 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_national_militia
 		activate_law = law_type:law_local_police
-		
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 2
 		}
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 2
 		}
-
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 2
 		}
-
 		ig:ig_rural_folk = { # Andrew Jackson, Jacksonian Democracy & Populism
 			add_ruling_interest_group = yes
 			remove_ideology = ideology_isolationist
 			add_ideology = ideology_isolationist_expansionism
 		}
-		
 		ig:ig_landowners = { 
 			set_interest_group_name = ig_southern_planters
 			remove_ideology = ideology_paternalistic
 			add_ideology = ideology_republican_paternalistic
 			add_ruling_interest_group = yes
 		}
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_evangelicals
 		}

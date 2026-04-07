@@ -869,7 +869,7 @@
  		}
  	}
  	s:STATE_ALSACE_LORRAINE = { 
- 		region_state:GER = { 
+ 		region_state:FRA = { 
  			create_pop = {
  				culture = alemannic
  				size = 940537

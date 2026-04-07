@@ -1,11 +1,8 @@
 ﻿COUNTRIES = {
 	c:TEX = {
-    effect_starting_technology_1922_tech_minor = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_next_election_date = 1836.9.5 # Historical election date of Samuel Houston
-		
-		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_conservative = yes
-		
 		add_technology_researched = empiricism
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_census_voting
@@ -17,10 +14,8 @@
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_per_capita_based_taxation
-		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms
-
 		add_modifier = {
 			name = modifier_texas_war_of_independence
 			months = 12
@@ -28,7 +23,6 @@
 		add_journal_entry = {
 			type = je_texas_tex
 		}
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_evangelical_church
 		}

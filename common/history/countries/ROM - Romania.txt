@@ -1,8 +1,6 @@
 COUNTRIES = {
 	c:ROM = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_3_tech = yes
-		
+        effect_starting_technology_tier_3_tech_hmm = yes
 		# Laws 
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_autocracy 
@@ -15,12 +13,10 @@ COUNTRIES = {
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_exploitation #colonization of Central Asia
-
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 1
 		}
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_orthodox_church
 		}

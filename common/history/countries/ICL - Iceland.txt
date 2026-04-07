@@ -1,10 +1,7 @@
 COUNTRIES = {
 	c:ICL = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_2_tech = yes
-
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_tax_level = medium
-
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_freedom_of_conscience
@@ -20,12 +17,10 @@ COUNTRIES = {
 		activate_law = law_type:law_colonial_exploitation
     	activate_law = law_type:law_right_of_assembly
     	activate_law = law_type:law_colonial_exploitation
-
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 1
 		}
-			
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3

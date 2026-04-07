@@ -1,10 +1,7 @@
 ﻿COUNTRIES = {
 	c:PNI = {
-    effect_starting_technology_1922_tech_minor = yes
+        effect_starting_technology_tier_4_tech_hmm = yes
 		set_next_election_date = 1836.9.11 # historical date of secession
-		
-		effect_starting_technology_tier_3_tech = yes
-
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_slave_trade
@@ -14,10 +11,8 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_per_capita_based_taxation
 		activatE_law = law_type:law_censorship
-		
 		set_tariffs_import_priority = g:artillery
 		set_tariffs_import_priority = g:small_arms	
-
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
 		}

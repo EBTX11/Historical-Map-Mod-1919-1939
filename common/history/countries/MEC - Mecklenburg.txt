@@ -1,8 +1,6 @@
 ﻿COUNTRIES = {
 	c:MEC = {
-    effect_starting_technology_1922_tech_minor = yes
-		effect_starting_technology_tier_2_tech = yes
-		
+        effect_starting_technology_tier_4_tech_hmm = yes
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_autocracy 
@@ -14,7 +12,6 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_migration_controls
-		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 2
